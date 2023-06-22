@@ -110,6 +110,7 @@ pyzmq @ file:///croot/pyzmq_1682697643292/work
 qtconsole @ file:///croot/qtconsole_1681394213385/work
 QtPy @ file:///opt/conda/conda-bld/qtpy_1662014892439/work
 requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1680286922386/work
+scikit-learn==1.2.2
 scipy==1.9.3
 seaborn @ file:///home/conda/feedstock_root/build_artifacts/seaborn-split_1672497695270/work
 Send2Trash @ file:///tmp/build/80754af9/send2trash_1632406701022/work
@@ -117,12 +118,13 @@ sip @ file:///tmp/abs_44cd77b_pu/croots/recipe/sip_1659012365470/work
 six @ file:///tmp/build/80754af9/six_1644875935023/work
 sniffio @ file:///home/builder/ci_310/sniffio_1640794799774/work
 soupsieve @ file:///croot/soupsieve_1680518478486/work
--e git+ssh://git@github.com/nanguo12/Startup-Analysis.git@260161a5d5bf17ea17736d399cb93d0afa543dcf#egg=src
+-e git+ssh://git@github.com/nanguo12/Startup-Analysis.git@f67bc5223c4e8ad0a4dde7e2bc3cbf373107f1ff#egg=src
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 statsmodels @ file:///croot/statsmodels_1676643798791/work
 tangled-up-in-unicode @ file:///croot/tangled-up-in-unicode_1668545227479/work
 tenacity==8.2.2
 terminado @ file:///croot/terminado_1671751832461/work
+threadpoolctl==3.1.0
 tinycss2 @ file:///croot/tinycss2_1668168815555/work
 toml @ file:///tmp/build/80754af9/toml_1616166611790/work
 tomli @ file:///opt/conda/conda-bld/tomli_1657175507142/work
@@ -137,4 +139,5 @@ wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 websocket-client @ file:///home/builder/ci_310/websocket-client_1640795866898/work
 widgetsnbextension @ file:///croot/widgetsnbextension_1679313860248/work
+xgboost==1.7.6
 ydata-profiling @ file:///croot/ydata-profiling_1680555814713/work
