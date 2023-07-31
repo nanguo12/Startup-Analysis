@@ -3,6 +3,12 @@ Startup-Analysis
 
 A project to predict the success of a start-up company
 
+Inference
+------------
+Install required packages and run inference
+``` pip install -r requirements.txt ```
+``` python main_inference.py ```
+
 Project Organization
 ------------
 
