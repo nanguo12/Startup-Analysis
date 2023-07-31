@@ -1,0 +1,382 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Type</th>
+      <th>Length</th>
+      <th>Null_Count</th>
+      <th>Size(Memory)</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>state_code</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>state of the company</td>
+    </tr>
+    <tr>
+      <th>latitude</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>latitude of the company</td>
+    </tr>
+    <tr>
+      <th>longitude</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>longitude of the company</td>
+    </tr>
+    <tr>
+      <th>zip_code</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>zip code of the company</td>
+    </tr>
+    <tr>
+      <th>id</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>company id</td>
+    </tr>
+    <tr>
+      <th>city</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>city of the company</td>
+    </tr>
+    <tr>
+      <th>name</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>company name</td>
+    </tr>
+    <tr>
+      <th>labels</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>target variable</td>
+    </tr>
+    <tr>
+      <th>founded_at</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>when the company was funded</td>
+    </tr>
+    <tr>
+      <th>closed_at</th>
+      <td>object</td>
+      <td>923</td>
+      <td>588</td>
+      <td>7384</td>
+      <td>when the company was closed</td>
+    </tr>
+    <tr>
+      <th>first_funding_at</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>when the commpany receive the first funding</td>
+    </tr>
+    <tr>
+      <th>last_funding_at</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>when the company receive the last funding</td>
+    </tr>
+    <tr>
+      <th>age_first_funding_year</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>age of the company when receiving the first funding</td>
+    </tr>
+    <tr>
+      <th>age_last_funding_year</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>age of the company when receiving the last funding</td>
+    </tr>
+    <tr>
+      <th>age_first_milestone_year</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>152</td>
+      <td>7384</td>
+      <td>age of the company when it reached first milestone</td>
+    </tr>
+    <tr>
+      <th>age_last_milestone_year</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>152</td>
+      <td>7384</td>
+      <td>age of the company when it reached last milestone</td>
+    </tr>
+    <tr>
+      <th>relationships</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>count of relationships of the company</td>
+    </tr>
+    <tr>
+      <th>funding_rounds</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>count of total funding rounds</td>
+    </tr>
+    <tr>
+      <th>funding_total_usd</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>total funding used</td>
+    </tr>
+    <tr>
+      <th>milestones</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>number of milestones</td>
+    </tr>
+    <tr>
+      <th>is_CA</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company located in CA</td>
+    </tr>
+    <tr>
+      <th>is_NY</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company located in NY</td>
+    </tr>
+    <tr>
+      <th>is_MA</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company located in MA</td>
+    </tr>
+    <tr>
+      <th>is_TX</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company located in TX</td>
+    </tr>
+    <tr>
+      <th>is_otherstate</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company located in other states</td>
+    </tr>
+    <tr>
+      <th>category_code</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>category of the company</td>
+    </tr>
+    <tr>
+      <th>is_software</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company a software company</td>
+    </tr>
+    <tr>
+      <th>is_web</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company a web company</td>
+    </tr>
+    <tr>
+      <th>is_mobile</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company a mobile company</td>
+    </tr>
+    <tr>
+      <th>is_enterprise</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company an enterprise company</td>
+    </tr>
+    <tr>
+      <th>is_advertising</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company an advertising company</td>
+    </tr>
+    <tr>
+      <th>is_gamesvideo</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company a gamesvideo company</td>
+    </tr>
+    <tr>
+      <th>is_ecommerce</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company an ecommerce company</td>
+    </tr>
+    <tr>
+      <th>is_biotech</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company a biotech company</td>
+    </tr>
+    <tr>
+      <th>is_consulting</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company a consulting company</td>
+    </tr>
+    <tr>
+      <th>is_othercategory</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company belong to other category</td>
+    </tr>
+    <tr>
+      <th>object_id</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>company id (repeated)</td>
+    </tr>
+    <tr>
+      <th>has_VC</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>does the company have VC</td>
+    </tr>
+    <tr>
+      <th>has_angel</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>does the company have angel</td>
+    </tr>
+    <tr>
+      <th>has_roundA</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>does the company have roundA</td>
+    </tr>
+    <tr>
+      <th>has_roundB</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>does the company have roundB</td>
+    </tr>
+    <tr>
+      <th>has_roundC</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>does the company have roundC</td>
+    </tr>
+    <tr>
+      <th>has_roundD</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>does the company have roundD</td>
+    </tr>
+    <tr>
+      <th>avg_participants</th>
+      <td>float64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>average count of participants</td>
+    </tr>
+    <tr>
+      <th>is_top500</th>
+      <td>int64</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>is the company top500 company</td>
+    </tr>
+    <tr>
+      <th>status</th>
+      <td>object</td>
+      <td>923</td>
+      <td>0</td>
+      <td>7384</td>
+      <td>the final status of the company</td>
+    </tr>
+  </tbody>
+</table>
