@@ -54,3 +54,6 @@ feat = pickle.load(open(home  + '/Startup-Analysis/models/feat/' + feat_file_nam
 # score the input dataset
 X = data[feat]
 y_pred = xgb_model_loaded.predict_proba(X)
+
+data['prob'] = y_pred[:,1]
+data[feat + ['prob']].to_csv(home + '/Startup-Analysis/data/processed/results.csv')
