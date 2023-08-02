@@ -7,9 +7,10 @@ Inference
 ------------
 Install required packages and run inference
 <br>
-``` pip install -r requirements.txt ```
-<br>
-``` python main_inference.py ```
+``` 
+pip install -r requirements.txt
+python main_inference.py 
+```
 
 Project Organization
 ------------
