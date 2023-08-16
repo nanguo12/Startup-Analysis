@@ -9,6 +9,7 @@ Install required packages and run inference
 <br>
 ``` 
 pip install -r requirements.txt
+pip install -e Startup-Analysis
 python main_inference.py 
 ```
 
